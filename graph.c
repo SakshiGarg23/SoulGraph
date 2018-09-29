@@ -20,12 +20,4 @@ void main() {
  line(10, 0, 10, 400);
  //represents x axis
  line(10, 400, 600, 400);
- while (y <= 400) {
-  line(0, y, 10, y);
-  y = y + 20;
- }
- while (x <= 600) {
-  line(x, 400, x, 410);
-  x = x + 20;
- }
- 
+}
