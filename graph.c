@@ -9,7 +9,7 @@ void main() {
  printf("Generating the Graphs");
  printf("\nEnter the no. of inputset");
  scanf("%d", &n);
- printf("\nEnter the input sizes and corresponding time taken");
+ printf("\nEnter the input sizes");
  for (i = 0; i < n; i++) {
   printf("\nEnter input size");
   scanf("%d", &a[i]);
